@@ -11,3 +11,7 @@ colors=['red','green','yellow','blue','orange']
 print(colors[1:4])
 print(colors[-4:-1])
 print(colors[1:4:2])
+# list comprehension
+names=['milo','sarah','bruno','rosal']
+namewith_o=[item for item in names if"o" in item]
+print(namewith_o)
