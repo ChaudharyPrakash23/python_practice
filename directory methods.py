@@ -1,0 +1,14 @@
+info={'name':'prakash','age':23,'iseligible':True}
+print(info)
+info.update({'name':'sanket'})
+info.update({'DOB':2002})
+print(info)
+info.clear()
+print(info)
+details={'product_name':'biscuits','count':2,'placed':True}
+details.pop('count')
+print(details)
+details.popitem()
+print(details)
+del(details['product_name'])
+print(details)
