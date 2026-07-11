@@ -1,0 +1,5 @@
+f=open("myfile.txt",)
+text=f.read()
+print(text)
+f.write("this is added content")
+f.append("this is added content")
