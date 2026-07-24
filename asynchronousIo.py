@@ -1,10 +1,19 @@
 import asyncio
 
-async def main():
-    print("Hello...")
+# async def main():
+#     print("Hello...")
     
-    await asyncio.sleep(2)
+#     await asyncio.sleep(2)
     
-    print("...World!")
+#     print("...World!")
 
-asyncio.run(main())
+# asyncio.run(main())
+
+async def count():
+    print("lets start counting")
+    for i in range(10):
+        print(i)
+        await asyncio.sleep(2)
+
+asyncio.run(count())
+        
